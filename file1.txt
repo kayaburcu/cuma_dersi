@@ -1,0 +1,9 @@
+FILE=open("/content/text_ada", mode="w")
+print("Pyhton\n"*5, file=FILE)
+
+my_file=open("/content/fishes_text.txt", mode="r")
+
+print(my_file.read(33))
+print(my_file.tell())
+
+my_file.close()
